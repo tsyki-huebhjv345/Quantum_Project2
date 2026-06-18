@@ -3,16 +3,15 @@
 A Qiskit program demonstrating fundamental quantum superposition using a Hadamard (H) gate and the Aer simulator.
 
 ## Project Overview
-This project uses IBM's Qiskit framework to place a single qubit into a state of perfect quantum superposition. Think of it like spinning a coin in the air—while spinning, it is a blend of both heads and tails. 
+This project uses IBM's Qiskit framework to place a single qubit into a state of perfect quantum superposition.
 
-The program runs this experiment 100,000 times to show how true quantum randomness works in practice.
-
+The program runs this experiment 100,000 times.
 ---
 
 ## How It Works
 
 ### 1. Quantum Superposition
-A standard computer bit can only ever be a 0 or a 1. A quantum bit (qubit) starts at |0> but can be put into a superposition state using a Hadamard (H) gate. 
+A standard computer bit can be a 0 or a 1. A quantum bit (qubit) starts at |0> but can be put into a superposition state using a Hadamard (H) gate. 
 
 When the gate is applied, the qubit has an exactly equal 50% chance of collapsing into a 0 or a 1 the moment it is measured.
 
